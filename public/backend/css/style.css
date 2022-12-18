@@ -1,0 +1,11 @@
+.app-page-title {
+    padding: 10px 30px !important;
+    margin-bottom: 0 !important;
+}
+.action-icon a {
+    margin-left: 15px !important;
+}
+
+.action-icon a:hover {
+    background-color: #f1f1f1;
+}

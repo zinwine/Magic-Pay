@@ -1,0 +1,302 @@
+/* ******************** Theme Design ************************
+
+theme - #5842e3
+theme:hover - #5842e3
+background - #ededf5
+border-radius - 10px
+font-size - 15px
+box-shadow - 0 5px 8px 3px rgba(0, 0, 0, 0.15)
+box-shadow:hover - 0 3px 4px 2px rgba(0, 0, 0, 0.1)
+
+*/
+
+body {
+    background-color: #ededf5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    min-width: 347px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #333 !important;
+}
+a:hover {
+    color: #5842e3 !important;
+}
+
+.btn {
+    padding: 10px 25px;
+}
+.btn_theme {
+    background-color: #5842e3;
+    color: #fff;
+}
+.btn_theme:hover {
+    background-color: #4731d2;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 5px 8px 3px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.unread_bell {
+    position: absolute;
+    top: -5px;
+    right: 10;
+    padding: 3px;
+}
+
+/* ********************** Validation Error *********************** */
+
+.invalid-feedback {
+    display: block !important;
+}
+
+/* ********************** Sweet Alert 2 *********************** */
+
+.swal2-popup {
+    border-radius: 8px;
+}
+.swal2-title {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+.swal2-styled {
+    padding: 5px 15px !important;
+}
+.swal2-styled.swal2-confirm {
+    background-color: #5842e3 !important;
+    font-size: 12px !important;
+}
+.swal2-styled.swal2-cancel {
+    font-size: 12px !important;
+}
+
+/* ********************** Profile Image *********************** */
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+/* ********************** Auth Form *********************** */
+.auth-form {
+    box-shadow: 0 5px 8px 3px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+.auth-form:hover {
+    box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.auth-form a {
+    color: #333;
+    text-decoration: none;
+}
+.auth-form a:hover {
+    color: #5842e3;
+}
+
+/*************************** Main Content ****************************************/
+
+.content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/*************************** Home ****************************************/
+
+.home .shotcut-box img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.home .home-icon-img {
+    width: 22px;
+    height: 22px;
+}
+
+/*************************** Account ****************************************/
+.account .card {
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.account .content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/*************************** Wallet  ****************************************/
+
+.wallet .my-card {
+    background-color: #5842e3;
+    color: #fff;
+}
+
+.wallet .my-card span {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #ededf5;
+}
+
+.wallet .my-card h4 {
+    font-size: 15px;
+    font-weight: 900;
+}
+.wallet .my-card h5 {
+    font-size: 15px;
+    font-weight: 900;
+}
+.wallet .my-card p {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*************************** Account ****************************************/
+
+.update-password .img img {
+    width: 180px;
+}
+/*************************** Scan Pay ****************************************/
+
+.scan_and_pay img {
+    width: 180px;
+}
+
+/* ****************** Transaction Detail ****************** */
+
+.transaction_deatil img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+/* ****************** Header Menu ****************** */
+
+.header-menu {
+    background-color: #fff;
+    padding-top: 10px;
+    /* padding-bottom: 12px; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+}
+.header-menu a:hover i {
+    color: #5842e3;
+    transition: 0.2;
+}
+.header-menu i {
+    padding-top: 3px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.header-menu h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.header-menu a:hover p {
+    color: #5842e3;
+    transition: 0.2;
+}
+
+/* ****************** Bottom Menu ****************** */
+
+.bottom-menu {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.bottom-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.bottom-menu a:hover i {
+    color: #5842e3;
+    transition: 0.2;
+}
+.bottom-menu i {
+    margin-top: 12px;
+    font-size: 15px;
+}
+.bottom-menu p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.bottom-menu a:hover p {
+    color: #5842e3;
+    transition: 0.2;
+}
+
+.bottom-menu .scan-tab {
+    width: 60px;
+    height: 60px;
+    background-color: #ededf5;
+    border-radius: 100%;
+    /* text-align: center; */
+    position: fixed;
+    bottom: 25px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 999; */
+}
+
+.scan-tab .inside {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: glow 3s infinite;
+}
+
+.scan-tab .inside i {
+    margin: 0;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+    20% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    40% {
+        box-shadow: 0 0 20px #5842e3;
+    }
+    60% {
+        box-shadow: 0 0 20px #5842e3;
+    }
+    80% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    100% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+}
