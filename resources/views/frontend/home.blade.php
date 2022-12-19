@@ -2,7 +2,7 @@
 @section('page-name', 'Magic Pay')
 @section('content')
 <div class="home">
-    <div class="col-md-12">
+    <div class="col-md-10">
             <div class="row">
             <div class="profile mb-3 col-12">
                 <img src="https://ui-avatars.com/api/?background=5842e3&color=fff&name={{$user->name}}" alt="">
