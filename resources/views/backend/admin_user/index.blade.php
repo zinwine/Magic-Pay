@@ -1,5 +1,5 @@
 @extends('backend.layouts.app')
-@section('title', 'Admin User View')   
+@section('title', 'Admin View')   
 @section('admin-user-active', 'mm-active')   
 @section('content')
 <div class="app-page-title">
